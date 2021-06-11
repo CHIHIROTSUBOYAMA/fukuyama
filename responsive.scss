@@ -1,0 +1,317 @@
+@media screen and (max-width: 1179px) {
+    .main {
+        .news {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .work {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .footer {
+        .pre-footer {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .header {
+        margin-top: 15px;
+    }
+    .nav {
+        display: none;
+        height: 0;
+    }
+    .main {
+        .servise {
+            .enclosure {
+                display: block;
+                .content {
+                    width: 95%;
+                    margin-right: 15px;
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        .work {
+            .content {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+
+        .sport {
+            height: 560px;
+            background-size: cover;
+            .sport-img {
+                img {
+                    max-height: 184px;
+                    margin-bottom: 30px;
+                    &:last-child {
+                        margin-bottom: 0;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .pre-footer {
+            .footer-right {
+                display: flex;
+            }
+        }
+        .border {
+            .main-footer {
+                .footer-contents {
+                    &:first-child {
+                        padding-left: 15px;
+                    }
+                    &:last-child {
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    // ハンバーガーメニュー
+    .gnav li {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+        vertical-align: top;
+    }
+
+    .gnav li a {
+        width: 100%;
+        max-width: 230px;
+        font-size: 18px;
+        letter-spacing: 0.25em;
+        text-align: left;
+        color: #333;
+        padding: 20px 1em 10px 0;
+        margin: auto;
+    }
+
+    .drawer-btn {
+        display: block;
+    }
+
+    .header-tel p a {
+        font-size: 28px;
+    }
+
+    .border01 {
+        margin-top: -8px;
+    }
+
+    .border03 {
+        margin-top: 8px;
+    }
+
+    // ここまで
+}
+
+@media screen and (max-width: 639px) {
+    .header {
+        .hamburger {
+            font-size: 12px;
+        }
+    }
+
+    .main {
+        .news {
+            display: block;
+            .notice {
+                width: auto;
+                margin-right: 0;
+                margin-bottom: 30px;
+            }
+            .information {
+                width: auto;
+                margin-right: 0;
+            }
+        }
+        .servise {
+            .enclosure {
+                .content {
+                    display: block;
+                    padding: 15px 10px;
+                    img {
+                        width: 100%;
+                    }
+                    .letter {
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+        .recluit {
+            background-image: url(img/recluitm.JPG);
+            .margin {
+                .letter {
+                    margin-right: 15px;
+                    margin-left: 15px;
+                    padding-top: 50px;
+                    h3 {
+                        font-size: 24px;
+                        text-align: left;
+                    }
+                    p {
+                        text-align: left;
+                    }
+                    a {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .sport {
+            height: 560px;
+            background-size: cover;
+            p {
+                font-size: 24px;
+            }
+            .sport-img {
+                img {
+                    width: 100%;
+                    &:nth-of-type(1) {
+                        max-width: 180px;
+                    }
+                    &:nth-of-type(2) {
+                        max-width: 173px;
+                    }
+                    &:nth-of-type(3) {
+                        max-width: 130px;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .pre-footer {
+            display: block;
+            text-align: center;
+            .footer-right {
+                display: block;
+                margin-top: 15px;
+            }
+        }
+        .border1 {
+            margin-left: 10px;
+            margin-right: 10px;
+            .main-footer {
+                display: block;
+                border-left: none;
+                border-right: none;
+                .footer-contents {
+                    width: 100%;
+                    padding-left: 15px;
+                    border-left: none;
+                    border-bottom: 1px solid #dee2e6;
+                    &:last-child {
+                        border-right: 0;
+                    }
+                    ul {
+                        padding-left: 10px;
+                        display: none;
+                        li {
+                            border-bottom: 1px solid #dee2e6;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-hamburger {
+            ul {
+                li {
+                    border: none;
+                    display: block;
+                    margin-bottom: 10px;
+                    &:last-child {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .main {
+            .sport {
+                height: 450px;
+                p {
+                    font-size: 24px;
+                }
+                .sport-img {
+                    img {
+                        width: 100%;
+                        &:nth-of-type(1) {
+                            max-width: 130px;
+                        }
+                        &:nth-of-type(2) {
+                            max-width: 125px;
+                        }
+                        &:nth-of-type(3) {
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //開閉ボタン
+    .hide1,
+    .hide2,
+    .hide3,
+    .hide4 {
+        display: block;
+        position: relative;
+    }
+    .hide1::before,
+    .hide2::before,
+    .hide3::before,
+    .hide4::before,
+    .hide1::after,
+    .hide2::after,
+    .hide3::after,
+    .hide4::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 3px;
+        border-radius: 5px;
+        background: rgb(34, 162, 41);
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .hide1::after,
+    .hide2::after,
+    .hide3::after,
+    .hide4::after {
+        background: rgb(34, 162, 41);
+        transform: translateY(-50%) rotate(90deg);
+        transition: 0.5s;
+    }
+
+    .active::after {
+        transform: rotate(0);
+        transition: 0.5s;
+    }
+
+    //ここまで
+}
